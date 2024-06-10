@@ -1,0 +1,13 @@
+name: TPRequest
+version: '${project.version}'
+main: top.panda164.tprequest.TPRequest
+api-version: '1.20'
+commands:
+    tpa:
+      description: Send a teleport request to the target player.
+    tpaccept:
+      description: Accept the teleport request from sender.
+    tphere:
+      description: Send a teleport request to let the target player teleport to you.
+    tpdeny:
+      description: Deny the teleport request from sender.
