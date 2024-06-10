@@ -31,7 +31,7 @@ public class Tpa implements CommandExecutor {
             }
 
         }
-        if(label.equals("tphere"))
+        if(label.equals("tpahere"))
         {
             if(commandSender instanceof Player)
             {

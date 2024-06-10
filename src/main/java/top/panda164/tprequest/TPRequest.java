@@ -17,7 +17,7 @@ public final class TPRequest extends JavaPlugin {
         // Plugin startup logic
         CommandExecutor commandExec = new Tpa();
         Bukkit.getPluginCommand("tpa").setExecutor(commandExec);
-        Bukkit.getPluginCommand("tphere").setExecutor(commandExec);
+        Bukkit.getPluginCommand("tpahere").setExecutor(commandExec);
         Bukkit.getPluginCommand("tpaccept").setExecutor(commandExec);
         Bukkit.getPluginCommand("tpdeny").setExecutor(commandExec);
     }
